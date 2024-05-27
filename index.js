@@ -14,7 +14,7 @@ app.use(express.json())
 app.use(productRoutes)
 
 app.get('/', (req, res) => {
-    res.send('2nd REST Api');
+    res.send('E-commerce backend is running');
 })
 
 
